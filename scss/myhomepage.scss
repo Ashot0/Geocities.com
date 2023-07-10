@@ -1,0 +1,104 @@
+@import "nullstyle.scss";
+@font-face {
+	font-family: "Wide Latin";
+	src: url(../fonts/LATINWD.TTF);
+}
+@font-face {
+	font-family: "ComicSansMS";
+	src: url(../fonts/Comic\ Sans\ MS.ttf);
+}
+@font-face {
+	font-family: "centurygothic";
+	src: url(../fonts/centurygothic.ttf);
+}
+@font-face {
+	font-family: "centurygothicbold";
+	src: url(../fonts/centurygothic_bold.ttf);
+}
+body {
+	background-color: #fff88f;
+}
+.tw10px {
+	margin-bottom: 10px;
+}
+.tw20px {
+	margin-bottom: 21px;
+}
+.fs20px {
+	font-size: 16px;
+}
+.tw40px {
+	margin-bottom: 40px;
+}
+.tw60px {
+	margin-bottom: 60px;
+}
+.centurygothic {
+	font-family: centurygothic;
+}
+.wrapper {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.marquee-welcome {
+	margin: 0 40px 50px 40px;
+	color: #ff0080;
+	font-size: 50px;
+	font-weight: bold;
+}
+.comic {
+	font-family: ComicSansMS;
+}
+a {
+	text-decoration: underline;
+	color: #0000ff;
+}
+.img-box {
+	width: max-content;
+}
+.red-text {
+	color: #ff1555;
+}
+.the-creator {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	a {
+		font-family: ComicSansMS;
+	}
+}
+.blue-text {
+	color: #004080;
+	font-family: ComicSansMS;
+}
+.yellow-text {
+	color: #606000;
+}
+.blue-white-text {
+	color: #33ccf8;
+}
+.bleuleu-text {
+	color: #8080ff;
+}
+.pink-text {
+	color: #cc33c2;
+}
+.contact-block {
+	display: flex;
+	flex-direction: row;
+}
+.brown-purple-text {
+	color: #663366;
+	font-weight: bold;
+}
+.italic-text {
+	font-style: italic;
+}
+.green-text {
+	color: #006600;
+}

@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+@font-face {
+  font-family: "Wide Latin";
+  src: url(../fonts/LATINWD.TTF);
+}
+body {
+  background-image: url(../img/Welcome/background.gif);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  margin: 20px 0;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  color: #ff6666;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__welcome-img img {
+  width: 500px;
+}
+
+.header__universe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.universe__rain-img {
+  height: 10px;
+}
+
+.q {
+  margin: 0 60px;
+}
+
+.universe__rain-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main {
+  text-align: center;
+}
+
+.yellow-text {
+  font-size: 20px;
+  color: #ffcc33;
+}
+
+.yellow-text_big {
+  font-size: 30;
+}
+
+.green-text {
+  font-size: 20px;
+  color: #94ff99;
+  margin-bottom: 60px;
+}
+
+.skroll-red-block {
+  font-size: 20px;
+  color: #ff0000;
+  font-weight: bold;
+  margin-bottom: 180px;
+}
+
+.num-scroll {
+  margin-bottom: 200px;
+  color: #33ccff;
+  font-family: Wide Latin;
+  font-size: 36px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.footer img {
+  width: 110px;
+}
+.footer a {
+  font-size: 30px;
+  font-weight: bold;
+  color: #0000f0;
+  text-decoration: underline;
+}
